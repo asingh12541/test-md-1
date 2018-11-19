@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mdb-radio-list": "git://github.com/makedatabetter-dev/mdb-radio-list.git#latest"
+    "mdb-radio-list": "git://github.com/makedatabetter-dev/mdb-radio-list.git"
   },
   "bugs": {
     "url": "https://github.com/asingh12541/test-md-1/issues"
