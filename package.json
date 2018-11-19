@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "replace-in-file master $branch ./package.json"
+    "preinstall": "replace-in-file master $branch ./package.json",
+    "postinstall": "echo $branch and npm ls"
   },
   "repository": {
     "type": "git",
