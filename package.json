@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "preinstall": "replace 'master' $branch ./package.json"
+    "preinstall": "replace 'latest' $branch ./package.json"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "test-md-2": "git://github.com/asingh12541/test-md-2.git#master"
+    "test-md-2": "git://github.com/asingh12541/test-md-2.git#latest"
   },
   "bugs": {
     "url": "https://github.com/asingh12541/test-md-1/issues"
