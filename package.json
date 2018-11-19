@@ -1,0 +1,23 @@
+{
+  "name": "test-md-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npm i replace && node replace.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asingh12541/test-md-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdb-radio-list": "git://github.com/makedatabetter-dev/mdb-radio-list.git#latest"
+  },
+  "bugs": {
+    "url": "https://github.com/asingh12541/test-md-1/issues"
+  },
+  "homepage": "https://github.com/asingh12541/test-md-1#readme"
+}
