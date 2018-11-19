@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "replace-in-file master $branch ./package.json",
-    "postinstall": "echo $branch and npm ls"
+    "postinstall": "echo $branch && npm ls"
   },
   "repository": {
     "type": "git",
